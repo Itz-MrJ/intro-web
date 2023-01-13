@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 | Intro to web programing</title>
+</head>
+<style>
+    .income {
+        background-color: #0ff;
+    }
+
+    .expenses {
+        background-color: #f0f;
+    }
+
+    .profit {
+        background-color: #f00;
+    }
+    .hide {
+        opacity: 0%;
+    }
+    .show{
+        opacity: 100%;
+    }
+</style>
+<body>
+    <marquee direction="right" scrollamount="2" id="marq" class="hide">
+        <span class="income">Income</span>, <span class="profit">profit</span>, and <span class="expenses">expenses</span> are all important financial concepts for individuals and businesses alike.
+        <span class="income">Income</span> refers to the money that is earned by an individual or a company. It can come from a variety of
+        sources such as wages, salary, rent, interest, and investments. <span class="profit">Profit</span>, on the other hand, is the money that
+        is left over after all <span class="expenses">expenses</span> have been subtracted from <span class="income">income</span>. It is a measure of a company's financial
+        performance and is often used to determine the success of a business. <span class="expenses">Expenses</span>, meanwhile, are the costs
+        that are incurred in order to generate <span class="income">income</span>. These can include things like salaries, rent, utilities, and
+        materials.
+
+        For individuals, <span class="income">income</span> is often a key factor in determining their standard of living and overall financial
+        well-being. It can also play a significant role in determining creditworthiness and the ability to secure
+        loans. For businesses, <span class="income">income</span> is crucial for survival and growth. A steady stream of <span class="income">income</span> allows a
+        business to pay its bills, invest in new opportunities, and expand operations.
+
+        <span class="profit">Profit</span>, on the other hand, is a measure of a company's success. It is an indicator of how well a business is
+        doing financially and can be used to determine the value of a company. A business that is consistently
+        profitable is considered to be healthy and stable, while a business that is consistently unprofitable may be
+        struggling. For individuals, <span class="profit">profit</span> can also be an important consideration, especially for those who are
+        self-employed or run their own business.
+
+        <span class="expenses">Expenses</span>, meanwhile, are the costs that are incurred in order to generate <span class="income">income</span>. These can include things
+        like salaries, rent, utilities, and materials. For businesses, keeping <span class="expenses">expenses</span> under control is crucial for
+        profitability. This means finding ways to reduce costs while still maintaining the quality of products or
+        services. For individuals, managing <span class="expenses">expenses</span> is crucial for achieving financial stability and reaching
+        financial goals.
+
+        In order to be successful, both individuals and businesses must be able to effectively manage their <span class="income">income</span>,
+        <span class="profit">profit</span> and <span class="expenses">expenses</span>. This means being able to accurately track and forecast <span class="income">income</span>, set and achieve <span class="profit">profit</span>
+        goals, and effectively manage <span class="expenses">expenses</span>. It also means being able to adapt to changes in the market and the
+        economy. By understanding and managing these financial concepts, individuals and businesses can make
+        informed decisions that will help them achieve their financial goals.
+
+        In addition, for businesses <span class="profit">profit</span> margin is also a important metric which is calculated by dividing the
+        <span class="profit">profit</span> by the revenue . This can give an idea of how much <span class="profit">profit</span> is being generated for every dollar of
+        revenue. A higher <span class="profit">profit</span> margin indicates that a business is generating more <span class="profit">profit</span> relative to its revenue,
+        which can indicate a more efficient operation.
+
+        In conclusion, <span class="income">income</span>, <span class="profit">profit</span>, and <span class="expenses">expenses</span> are all essential financial concepts that are closely related.
+        <span class="income">income</span> is the money earned, <span class="profit">profit</span> is the money left over after <span class="expenses">expenses</span> are subtracted, and <span class="expenses">expenses</span> are
+        the costs incurred to generate <span class="income">income</span>. Understanding and effectively managing these concepts is crucial for
+        the financial success of individuals and businesses alike. By keeping a close eye on <span class="income">income</span>, <span class="profit">profit</span>, and
+        <span class="expenses">expenses</span>, individuals and businesses can make informed decisions that will help them achieve their financial
+        goals.</marquee>
+        <button onclick="show()">Show text in 5 seconds</button>
+
+        <script>
+            function show(){
+                setTimeout( () => {document.getElementById('marq').className = 'show'},5000 );
+            }
+        </script>
+</body>
+</html>

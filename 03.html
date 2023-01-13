@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 | Intro to web programming</title>
+</head>
+<body>
+    <div>
+        <svg width="400" height="180">
+            <rect width="150" height="150" style="fill:aqua;stroke:brown;stroke-width:6px;" />
+        </svg>
+        <br>
+        <br>
+        <div> d = x<sup>2</sup>-y<sup>2</sup></div>
+        <br>
+        <br>
+        <div>
+            <a href="javascript:delay('https://google.com')">Will redirect too Google in 5 on click!</a>
+        </div>
+    </div>
+    <script>
+        function delay(URL){
+            setTimeout( () => {window.location = URL},5000 );
+        }
+    </script>
+</body>
+</html>
